@@ -12,6 +12,9 @@ function App() {
 					{publicRouter.map((router, index) => {
 						const Page = router.components;
 						let Layout = DefaultLayout;
+						if (router.layout === null) {
+							Layout = ({ children }) => <>{children}</>;
+						}
 						return (
 							<Route
 								key={index}

@@ -1,4 +1,5 @@
-@import 'normalize.css';
+@import 'tailwindcss';
+
 body {
 	line-height: 1.5;
 	text-rendering: optimizeSpeed;
@@ -8,16 +9,16 @@ body {
 		Poppins,
 		Source Sans Pro,
 		Helvetica Neue Arial,
-		sans-serif !important;
-	padding: 0;
-	margin: 0;
+		sans-serif;
+	// padding: 0;
+	// margin: 0;
 	box-sizing: border-box;
 }
 button,
 input,
 [tabindex] {
 	outline: none;
-	border: none;
+
 	background: none;
 }
 label {

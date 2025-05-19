@@ -1,7 +1,9 @@
 function Header() {
 	return (
-		<div className="">
-			<h1 className="">Header</h1>
+		<div className="bg-[#ccc] h-[90px]">
+			<div className="container">
+				<h1 className="text-[#bd3232]">Header</h1>
+			</div>
 		</div>
 	);
 }

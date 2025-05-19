@@ -1,15 +1,11 @@
-import Header from '../components/Header';
 import Sidebar from './Sidebar';
-function DefaultLayout({ children }) {
+
+const DefaultLayout = ({ children }) => {
 	return (
-		<div className="">
-			<Header />
-			<div className="flex">
-				<Sidebar />
-				<div className="">{children}</div>
-			</div>
+		<div className="flex">
+			<Sidebar />
+			<div className="p-10 ml-[250px] w-full">{children}</div>
 		</div>
 	);
-}
-
+};
 export default DefaultLayout;

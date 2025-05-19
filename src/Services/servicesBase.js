@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const TIMEOUT = 1 * 60 * 100000;
 
-class NetworkService {
+class Servicebase {
 	constructor(baseURL = '', onUnauthenticated) {
 		const instance = axios.create({
 			baseURL,
@@ -10,7 +10,7 @@ class NetworkService {
 			headers: {
 				'Content-Type': 'application/json',
 				csrf: 'token',
-				'Access-Control-Allow-Origin': '*',
+				// 'Access-Control-Allow-Origin': '*',
 			},
 		});
 
@@ -65,4 +65,4 @@ class NetworkService {
 	}
 }
 
-export default NetworkService;
+export default Servicebase;
