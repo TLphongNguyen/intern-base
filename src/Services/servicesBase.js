@@ -10,7 +10,7 @@ class Servicebase {
 			headers: {
 				'Content-Type': 'application/json',
 				csrf: 'token',
-				// 'Access-Control-Allow-Origin': '*',
+				'Access-Control-Allow-Origin': '*',
 			},
 		});
 

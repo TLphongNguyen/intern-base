@@ -84,7 +84,6 @@ const SignIn = () => {
 											aria-describedby="remember"
 											type="checkbox"
 											className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
-											required
 										/>
 									</div>
 									<div className="ml-3 text-sm">
@@ -102,7 +101,7 @@ const SignIn = () => {
 							</div>
 							<button
 								type="submit"
-								className="w-full shadow cursor-pointer text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+								className="w-full shadow cursor-pointer text-white bg-primary-600 hover:bg-primary-700 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center "
 							>
 								Đăng nhập
 							</button>

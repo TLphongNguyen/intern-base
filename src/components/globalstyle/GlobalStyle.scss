@@ -1,4 +1,10 @@
-@import 'tailwindcss';
+// @import 'tailwindcss
+// GlobalStyle.scss
+@use 'tailwindcss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
 	line-height: 1.5;
